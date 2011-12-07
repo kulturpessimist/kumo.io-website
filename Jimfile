@@ -1,0 +1,23 @@
+{
+	"bundle_dir": "js",
+	"compressed_suffix": ".min",
+	"vendor_dir": "js/vendor",
+	"bundles": {
+		"default": [
+			"sha1",
+			"md5",
+			"Math.uuid",
+			
+			[ "jquery", "1.7" ],
+			[ "jquery.couch", "1.0.3" ],
+			"jquery.noisy",
+	
+			"humane",
+			
+			["sprintf", "0.7.b1"],
+			"strftime",
+	
+			"js/app"
+		]
+	}
+}
